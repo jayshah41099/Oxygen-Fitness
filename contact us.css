@@ -1,0 +1,70 @@
+.leftspace {
+			position:absolute;
+			left: 7px; 
+			top: 7px;
+}
+
+ul {
+    list-style-type: none;
+    margin : -8px;
+    padding: 22px;
+    overflow: hidden;
+    background-color: #e6ffff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ff1a75;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+	font-size : 17px;
+	text-transform: uppercase;
+}
+
+li a:hover {
+    color: #4d88ff;
+	text-decoration: underline;
+} 
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contactinfo {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    
+}
